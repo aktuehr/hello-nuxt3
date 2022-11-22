@@ -7,6 +7,7 @@
 
     <AppAlert>
       This is an auto-imported component
+      <img src="/img/icon-green.png" alt="Nuxt3" />
     </AppAlert>
   </div>
 </template>
