@@ -2,7 +2,7 @@
   <div>
     <h1>Welcome to the homepage</h1>
     <section>
-    <p>This page will be displayed at the / route.</p>
+    <p class="primary">This page will be displayed at the / route.</p>
   </section>
 
     <AppAlert>
@@ -12,3 +12,9 @@
     </AppAlert>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.primary {
+  color: $primary;
+}
+</style>
